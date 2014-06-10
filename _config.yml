@@ -1,0 +1,24 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            studioidefix
+tagline:          'Here be Dragons'
+description:      'here be dragons'
+url:              http://studioidefix.com
+
+author:
+  name:           'Anish Bhatt'
+  url:            https://github.com/anish
+
+paginate:         5
+
+# Custom vars
+version:          1.0.0
+
+github:
+  repo:           https://github.com/poole/hyde
