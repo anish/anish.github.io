@@ -4,7 +4,7 @@ title: About
 ---
 
 <p class="message">
-  Hey there! Welcome to my personal homepage
+  Hey there! Welcome to the personal homepage of <a href=https://github.com/anish>Anish Bhatt<a/>
 </p>
 
 I'm a kernel programmer who contributes regularly to places like
