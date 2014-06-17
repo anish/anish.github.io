@@ -1,6 +1,7 @@
 # Dependencies
 markdown:         redcarpet
 highlighter:      pygments
+highlighter:      true
 
 # Permalinks
 permalink:        pretty
@@ -18,7 +19,7 @@ author:
 paginate:         5
 
 # Custom vars
-version:          1.0.3
+version:          1.0.4
 
 github:
   repo:           https://github.com/poole/hyde
