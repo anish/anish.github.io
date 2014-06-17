@@ -36,9 +36,9 @@ Now, lets takes a sample message to reply to. Let's presume we want to reply to 
 Message-Id	<CA+55aFzNDTm_O8rGYdNw1S99P06u6EeSdttXBvtURJocQT2O0g@mail.gmail.com>
 {% endhighlight %}
 The value inside <...> is the Message-Id we need to reply to create a thread around this message. Next, we create a text file, let's say msg1 that git can parse as an email draft. You can type out your email here if you like but you really need to have only two lines in there, message body goes below these two lines
-{% highlight bash %}
+{% highlight default %}
 From: Bob Bobberson <bob@bobberson.com>
-Subject: Re: Bob Bobberson\'s Burgers is now open
+Subject: Re: Bob Bobberson's Burgers is now open
 {% endhighlight %}
 Change your email address & subject as required, the 'Re: ' before the subject line is recommended to indicate a reply. Next, run git send-email as follows
 {% highlight bash %}
