@@ -14,7 +14,7 @@ Enter [phabricator](http://phabricator.org/). While the setup is pretty easy (ev
 {% highlight bash %}
 ldapsearch -h bar.foodomain.com -p 389 -x -b "CN=Users,dc=foodomain,dc=com" -D "foodomain\user" -W | less
 {% endhighlight %}
-Where 'bar.foodomain.com' is your ldap server, and 'user' is your ldap login name. The -x indicates use [simple authentication](http://docs.oracle.com/javase/jndi/tutorial/ldap/security/simple.html), and -W prompts for the password for 'user'. If this command worked for you, then the following configuration should work for LDAP in phabricator
+Where <code>bar.foodomain.com</code> is your ldap server, and <code>user</code> is your ldap login name. The <code>-x</code> indicates use [simple authentication](http://docs.oracle.com/javase/jndi/tutorial/ldap/security/simple.html), and <code>-W</code> prompts for the password for 'user'. If this command worked for you, then the following configuration should work for LDAP in phabricator
 
 {% highlight bash %}
 * Hostname: bar.foodomain.com
@@ -53,4 +53,8 @@ objectCategory: CN=Person,CN=Schema,CN=Config,DC=foodomain,DC=com
 mail: burgerguy@fodomain.com
 {% endhighlight %}
 
-Username Attributes & Real name attributes were based on this sample return. The phabricator config actually recommends using *sn* instead of *sAMAccount*, this did not work for me. These values are not case sensitive btw. You can replace *displayName* with *givenName,sn* or pretty much any combination of returned attributes. Note : a lot of places seem to recommend specifying Real Name attributes as *["givenName","sn"]* instead of *givenName,sn* but only the format without the brackets & quotes worked for me.
+Username Attributes & Real name attributes were based on this sample return. The phabricator config actually recommends using <code>sn</code> instead of <code>sAMAccount</code>, this did not work for me. These values are not case sensitive. You can replace <code>displayName</code> with <code>givenName,sn</code> or pretty much any combination of returned attributes.
+
+Note : a lot of places seem to recommend specifying Real Name attributes as <code>["givenName","sn"]</code> instead of <code>givenName,sn</code> but only the format without the brackets & quotes worked for me. You can also use the auth test utility shipped with phabricator to test ldap via <code>phabricator/bin/auth ldap</code>. It uses ldap settings set in phabricator > auth > ldap.
+
+Simple LDAP configuration only allows you to login via ldap, you still need to *import* ldap users into phabricator for it to work correctly. To do this go to phabricator > people > import from ldap. Enter any useable username/password combo, and an ldap query to search for users to import. Based on the sample return above, a useable query would be <code>(objectClass=person)</code>.
