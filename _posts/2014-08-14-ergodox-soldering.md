@@ -22,7 +22,7 @@ Now for the actual keypoints :
 4. The MCP23018 I/O expander (which is also directional) has three unused pins on the lower side. These are obvious as the holes on the PCB have no copper casing on them, don't try and solder these as there is no base to heat up.
 5. If you solder the capacitor on to clean the signal, make sure you short the pins next to it as show in the image below, the capacitor does not work without this. Note the bit of solder shorting the pins to the right of the capacitor. <img src="{{ site.url }}/assets/images/ergodox/ergo3.jpg" title="Capacitor">
 6. You can use the extra bit of wire that you trim from the resistors and the capacitor to short the connections with the white outline which is required by the TRRS connectors.
-7. Do not remove the black plastic spacer below the Teensy controller, it is required to provide spacing between the Teensy and the PCB. Note the black plastic spacer seen right below the Teensy in the image below. <img src="{{ site.url }}/assets/images/ergodox/ergo4.jpg" title="Teensy spacer">
+7. Do not remove the black plastic spacer below the Teensy controller, it is required to provide clearance between the Teensy and the PCB. Note the black plastic spacer seen right below the Teensy in the image below. <img src="{{ site.url }}/assets/images/ergodox/ergo4.jpg" title="Teensy spacer">
 8. After you connect the USB mini connector, make sure you solder it on both sides where applicable for stability.
 9. You need to put Layer #3 onto the PCB before you start soldering the switches. The switches hold the plate in place and need to be put above the plate.
 10. The LEDs are also directional. The long end is aligned to the square pads, same as the diodes.
