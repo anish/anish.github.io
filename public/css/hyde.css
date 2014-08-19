@@ -85,6 +85,7 @@ html {
 .sidebar-about h2 {
   color: #268bd2;
   margin-top: 0;
+  margin-bottom :0;
   font-family: "Abril Fatface", serif;
   font-size: 2.5rem;
 }
