@@ -20,4 +20,4 @@ I really liked the sculped [DCS family](http://keycapsdirect.com/pdfs/DCSFamily.
 * 1xR4 x20
 * 1xR2 x4 (vertical)
 
-My actualy configuration is slightly different because I used keys from multiple rows to give a better feel on Row 1, you can see the full config with colours and applicable rows [here](http://www.keyboard-layout-editor.com/#/layouts/e92ae592ef1834e9b13fc7ad969ad8b0). I used 2x R2 x1.5 and 2 x R3 x 1.5 for the 1.5 verticals, with coloured accents for the corner keys, all in PBT. The stock on the vertical keys varies, so you might have to make some substitutions.
+My actual configuration is slightly different because I used keys from multiple rows to give a better feel on Row 1, you can see the full config with colours and applicable rows [here](http://www.keyboard-layout-editor.com/#/layouts/e92ae592ef1834e9b13fc7ad969ad8b0). I used 2x R2 x1.5 and 2 x R3 x 1.5 for the 1.5 verticals, with coloured accents for the corner keys, all in PBT. The stock on the vertical keys varies, so you might have to make some substitutions.
