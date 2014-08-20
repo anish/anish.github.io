@@ -31,7 +31,7 @@ To get past all these mailing constraints, and because Linus basically wrote Git
 
 {% endhighlight %}
 
-Now, lets takes a sample message to reply to. Let's presume we want to reply to [Linus Torvalds](https://lkml.org/lkml/2014/6/16/1) (Please do not actually email Linus, you will be ignored and hated). First thing we want to do is fetch the headers for that message, which we can see by clicking [[headers]](https://lkml.org/lkml/headers/2014/6/16/1). Specifically, we only need one line
+Now, lets takes a sample message to reply to. Let's presume we want to reply to [Linus Torvalds](https://lkml.org/lkml/2014/6/16/1) (Please do not actually email Linus for testing purposes). First thing we want to do is fetch the headers for that message, which we can see by clicking [[headers]](https://lkml.org/lkml/headers/2014/6/16/1). Specifically, we only need one line
 {% highlight bash %}
 Message-Id	<CA+55aFzNDTm_O8rGYdNw1S99P06u6EeSdttXBvtURJocQT2O0g@mail.gmail.com>
 {% endhighlight %}
