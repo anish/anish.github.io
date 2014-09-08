@@ -21,4 +21,4 @@ yum clean all
 yum upgrade
 
 {% endhighlight %}
-You should have moved completely from RHEL packages to CentOS packages at the end of this step. Please note that these instructions are for x86_64, you need to replace 'x86_64' with 'i386' in the urls if you are on a 32-bit system. 
+You should have moved completely from RHEL packages to CentOS packages at the end of this step. Please note that these instructions are for x86\_64, you need to replace 'x86\_64' with 'i386' in the urls if you are on a 32-bit system.
