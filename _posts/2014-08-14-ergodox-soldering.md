@@ -16,7 +16,7 @@ While Massdrop's instruction page is pretty solid, there a couple of places wher
 
 Now for the actual keypoints :
 
-1. You want to use a thinner solder for the surface mount diodes and the USB miny plug than you would for the other components. .032" is a good thin solder.
+1. You want to use a thinner solder for the surface mount diodes and the USB mini plug than you would for the other components. .032" is a good thin solder.
 2. The diodes are *directional*, you want the cathode (marked with a line) facing the side with the square pad (the through-hole with the square frame), as show in the image here. The diodes are also the only components that go on the underside of the PCB. <img src="{{ site.url }}/assets/images/ergodox/ergo1.jpg" title="Surface mounted diode">
 3. <s>The resistors are also directional, align them as shown in the image below using the coloured lines as reference.</s> Welp, resistors are not directional, but picking an alignment will make it easier for you to read the color codes. <img src="{{ site.url }}/assets/images/ergodox/ergo2.jpg" title="Resistor alignment">
 4. The MCP23018 I/O expander (which is also directional) has three unused pins on the lower side. These are obvious as the holes on the PCB have no copper casing on them, don't try and solder these as there is no base to heat up.

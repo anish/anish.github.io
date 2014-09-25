@@ -14,7 +14,7 @@ First, clone the github repo
 {% highlight bash %}
 # git clone https://github.com/benblazak/ergodox-firmware.git
 {% endhighlight %}
-The default layout used is called qwerty-kinesis-mod, and can be found under <code>ergodox-firmware/src/keyboard/ergodox/layout</code>. Create a layout you like at the [configurator](https://www.massdrop.com/ext/ergodox) and download the source instead of the compiled firmware by ticking the "Source Code" checkbox next to the Download link. Here's [mine](https://www.massdrop.com/ext/ergodox/?referer=VM33BS&hash=ba0d509aae90f486d4e40a86942de219) for example.  Extract the resultant zip file into a predtermined location, say massdrop_layout. Copy the required files as follows:
+The default layout used is called qwerty-kinesis-mod, and can be found under <code>ergodox-firmware/src/keyboard/ergodox/layout</code>. Create a layout you like at the [configurator](https://www.massdrop.com/ext/ergodox) and download the source instead of the compiled firmware by ticking the "Source Code" checkbox next to the Download link. Here's [mine](https://www.massdrop.com/ext/ergodox/?referer=VM33BS&hash=ba0d509aae90f486d4e40a86942de219) for example.  Extract the resultant zip file into a predetermined location, say massdrop_layout. Copy the required files as follows:
 {% highlight bash %}
 # ls
   ergodox_firmware/	massdrop_layout/

@@ -10,7 +10,7 @@ author: anish_bhatt
 
 When it comes to code review [Gerrit](https://code.google.com/p/gerrit/) is pretty much unbeatable. Sadly, since it's git only, and our internal codebase is hosted on Mercurial, this was of no use to us. 
 
-Enter [phabricator](http://phabricator.org/). While the setup is pretty easy (even the manual installation on RHEL 5), the configuration is not as straightforward as I would like, with using LDAP integrtion for authentication not quite working as expected. Specifically our LDAP server did not support *anonymous* searches. While there are a few examples floating around the web, I couldn't really find one that worked. ldapsearch actually proved to be quite helpful here.  An easy way to try this out is to run the following command :
+Enter [phabricator](http://phabricator.org/). While the setup is pretty easy (even the manual installation on RHEL 5), the configuration is not as straightforward as I would like, with using LDAP integration for authentication not quite working as expected. Specifically our LDAP server did not support *anonymous* searches. While there are a few examples floating around the web, I couldn't really find one that worked. ldapsearch actually proved to be quite helpful here.  An easy way to try this out is to run the following command :
 {% highlight bash %}
 ldapsearch -h bar.foodomain.com -p 389 -x -b "CN=Users,dc=foodomain,dc=com" -D "foodomain\user" -W | less
 {% endhighlight %}

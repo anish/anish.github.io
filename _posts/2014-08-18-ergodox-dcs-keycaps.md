@@ -7,7 +7,7 @@ author: anish_bhatt
 ***real keyboards have curves***
 
 <img src="{{ site.url }}/assets/images/ergodox_build/ergodox.jpg" title="Ergodox with DCS keycaps">
-I really liked the sculped [DCS family](http://keycapsdirect.com/pdfs/DCSFamily.pdf) from Signature Plastics but couldn't find too many resources on what you need to build a DCS keycap set for the Ergodox. Overall, spherical seems to be the preferred (and cheaper) choice for this. The biggest issue you will face is that there are no vertical 1.5 keys in the DCS family, and you need to reuse the 1.5 horizontal keys for your vertical ones. This is broadly what you need :
+I really liked the sculpted [DCS family](http://keycapsdirect.com/pdfs/DCSFamily.pdf) from Signature Plastics but couldn't find too many resources on what you need to build a DCS keycap set for the Ergodox. Overall, spherical seems to be the preferred (and cheaper) choice for this. The biggest issue you will face is that there are no vertical 1.5 keys in the DCS family, and you need to reuse the 1.5 horizontal keys for your vertical ones. This is broadly what you need :
 
 * 1.5xR1 x2
 * 1.5xR2 x4
