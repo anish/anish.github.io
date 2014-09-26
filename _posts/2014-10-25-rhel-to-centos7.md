@@ -4,7 +4,7 @@ title: Migrate from RHEL7 to CentOS7 repos
 author: anish_bhatt
 ---
 
-***Damn that RHN subscription***
+***Damn that RHN subscription, continued***
 
   > Note : The rpm versions keep changing with every package update and might be out of date. You can check the correct current versions by going [here](http://mirror.centos.org/centos/7/os/x86_64/Packages)
 
