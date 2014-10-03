@@ -13,10 +13,10 @@ While the instructions on the [CentOS wiki](http://wiki.centos.org/HowTos/Migrat
 
 yum remove rhnlib abrt-plugin-bugzilla redhat-release-notes*
 rpm -e --nodeps redhat-release redhat-release-server redhat-indexhtml
-yum install http://mirror.centos.org/centos/6/os/x86_64/Packages/centos-release-6-5.el6.centos.11.1.x86_64.rpm
-yum install http://mirror.centos.org/centos/6/os/x86_64/Packages/centos-indexhtml-6-1.el6.centos.noarch.rpm
-yum install http://mirror.centos.org/centos/6/os/x86_64/Packages/yum-3.2.29-40.el6.centos.noarch.rpm
-yum install http://mirror.centos.org/centos/6/os/x86_64/Packages/yum-plugin-fastestmirror-1.1.30-14.el6.noarch.rpm
+yum localinstall http://mirror.centos.org/centos/6/os/x86_64/Packages/centos-release-6-5.el6.centos.11.1.x86_64.rpm
+yum localinstall http://mirror.centos.org/centos/6/os/x86_64/Packages/centos-indexhtml-6-1.el6.centos.noarch.rpm
+yum localinstall http://mirror.centos.org/centos/6/os/x86_64/Packages/yum-3.2.29-40.el6.centos.noarch.rpm
+yum localinstall http://mirror.centos.org/centos/6/os/x86_64/Packages/yum-plugin-fastestmirror-1.1.30-14.el6.noarch.rpm
 yum clean all
 yum upgrade
 

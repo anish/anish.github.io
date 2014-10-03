@@ -21,10 +21,10 @@ rm -rf /usr/share/doc/redhat-release/
 rpm --import http://mirror.centos.org/centos/7/os/x86_64/RPM-GPG-KEY-CentOS-7
 
 # Install the CentOS 7 release packages
-yum install http://mirror.centos.org/centos/7/os/x86_64/Packages/yum-plugin-fastestmirror-1.1.31-24.el7.noarch.rpm
-yum install http://mirror.centos.org/centos/7/os/x86_64/Packages/yum-3.4.3-118.el7.centos.noarch.rpm
-yum install http://mirror.centos.org/centos/7/os/x86_64/Packages/centos-logos-70.0.6-1.el7.centos.noarch.rpm
-yum install http://mirror.centos.org/centos/7/os/x86_64/Packages/centos-release-7-0.1406.el7.centos.2.3.x86_64.rpm
+yum localinstall http://mirror.centos.org/centos/7/os/x86_64/Packages/yum-plugin-fastestmirror-1.1.31-24.el7.noarch.rpm
+yum localinstall http://mirror.centos.org/centos/7/os/x86_64/Packages/yum-3.4.3-118.el7.centos.noarch.rpm
+yum localinstall http://mirror.centos.org/centos/7/os/x86_64/Packages/centos-logos-70.0.6-1.el7.centos.noarch.rpm
+yum localinstall http://mirror.centos.org/centos/7/os/x86_64/Packages/centos-release-7-0.1406.el7.centos.2.3.x86_64.rpm
 
 # Clean database & upgrade all packages
 yum clean all
