@@ -1,0 +1,73 @@
+---
+layout: page
+title: Devlog
+---
+
+<p class="message">
+  This page lists some (but not all)of my contributions to open-source projects
+</p>
+
+* 2014-09-15 [linux-kernel] &raquo;<br>[bnx2i/bnx2fc : fix randconfig error in next-20140909](https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=23a3c99201954d8ffe92e599e3c3039985280f1b)
+* 2014-09-15 [linux-kernel] &raquo;<br>[scsi\_netlink : Make SCSI_NETLINK dependent on NET instead of selecting NET](https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=5d6be6a5d4864712832822efeb9c2d54e4063949)
+* 2014-09-15 [linux-kernel] &raquo;<br>[cxgb4i: avoid holding mutex in interrupt context](http://git.infradead.org/users/hch/scsi-queue.git/commit/576b586303f76be9e5e2f5266ccbeba1b46bbd06)
+* 2014-09-04 [linux-kernel] &raquo;<br>[cnic : Cleanup CONFIG_IPV6 & VLAN check](https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=c99d667e852766afc755fa4430be64bb94e5ea1c)
+* 2014-08-20 [linux-kernel] &raquo;<br>[cxgb4: Fix race condition in cleanup](https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=29aaee65bc28cc75281dc9fe0998cc5e10ac37f9)
+* 2014-08-12 [linux-kernel] &raquo;<br>[libcxgbi/cxgb4i : Fix ipv6 build failure caught with randconfig](https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=8d21797df9ce6537a46ff58e20f359ef05c8faf2)
+* 2014-08-07 [linux-kernel] &raquo;<br>[cxgb4: IEEE fixes for DCBx state machine](https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=10b0046685ab410847f420d740acf604c8cb4eec)
+* 2014-08-05 [linux-kernel] &raquo;<br>[cxgb4 : Disable recursive mailbox commands when enabling vi](https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=30f00847953e3aa3f710d62ffd37b42042807900)
+* 2014-08-04 [linux-kernel] &raquo;<br>[cxgb4i : Move stray CPL definitions to cxgb4 driver](https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=a2b81b35f9e5ade210e4df2001f7a30ac390114d)
+* 2014-08-02 [linux-kernel] &raquo;<br>[cxgb4i : remove spurious use of rcu](https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=e6b92c25d20c64c271ef429bba8febeefb848b5b)
+* 2014-07-28 [linux-kernel] &raquo;<br>[dcbnl : Fix misleading dcb_app->priority explanation](https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=16eecd9be4b05e3216b8b12707aa6f51fb197903)
+* 2014-07-25 [open-iscsi] &raquo;<br>[iscsiadm : make iface.ipaddress optional in iface configs for transports that don't have a hard requirement on it.](https://github.com/mikechristie/open-iscsi/commit/96eaaacaeac39625508e6ec8022bb5e565c36a7c)
+* 2014-07-17 [linux-kernel] &raquo;<br>[libcxgbi/cxgb4i Guard ipv6 code with a config check](https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=e81fbf6cd65247e6c65719eacf2af5856db3d5a9)
+* 2014-07-17 [linux-kernel] &raquo;<br>[cxgb4i: Add ipv6 code to driver, call into libcxgbi ipv6 api](https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=759a0cc5a3e1bc2cc48fa3c0b91bdcad8b8f87d6)
+* 2014-07-17 [linux-kernel] &raquo;<br>[libcxgbi: Add ipv6 api to driver](https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=fc8d0590d9142d01e4ccea3aa57c894bd6e53662)
+* 2014-07-17 [linux-kernel] &raquo;<br>[cxgb4: Export symbols required by cxgb4i for ipv6 support and required defines](https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=a3e3b2857d35988819bc396c012c53898b8223e6)
+* 2014-07-17 [linux-kernel] &raquo;<br>[cxgb4/iw_cxgb4: Move common defines to cxgb4](https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=3ded29ace767a626d07c14fbdf9586dc0e520636)
+* 2014-07-16 [linux-kernel] &raquo;<br>[Update setapp/getapp prototypes in dcbnl\_rtnl\_ops to return int instead of u8](https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=c2659479f7865fb538493089bce3dd3d2abf90b0)
+* 2014-07-10 [wireshark] &raquo;<br> [OSPF : cleanup hf_filter array](https://code.wireshark.org/review/gitweb?p=wireshark.git;a=commit;h=bf371e39b6b383623239586231e8eaddfbab5ba8)
+* 2014-07-10 [wireshark] &raquo;<br> [Update to fix for Bug 6302. There is no need to check block constraints as min length already guarantees this, this also fixes false positives for missing TOS metric blocks](https://code.wireshark.org/review/gitweb?p=wireshark.git;a=commit;h=bc8e095ec8b7a3b69412b09c129f3635c732d357)
+* 2014-06-23 [linux-kernel] &raquo;<br>[cxgb4: Fix endian bug introduced in cxgb4 dcb patchset](https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=5433ba365f6dd9f30899188755eb4b093314732c)
+* 2014-06-20 [wireshark] &raquo;<br> [OSPF Cleanup. Remove unnecessary TFS declarations](https://code.wireshark.org/review/gitweb?p=wireshark.git;a=commit;h=b4d4218a180552739b5442667063fdb11e164e26)
+* 2014-06-19 [linux-kernel] &raquo;<br>[cxgb4 : Update copyright year on all cxgb4 files](https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=ce100b8b813da05338ec15e40c195ee597be9dc9)
+* 2014-06-19 [linux-kernel] &raquo;<br>[cxgb4 : Makefile & Kconfig changes for DCBx support](https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=19f43d1aa6c55eea7d0f67dd561fa992ac7e7894)
+* 2014-06-19 [linux-kernel] &raquo;<br>[cxgb4 : Integrate DCBx support into cxgb4 module. Register dbcnl_ops to give access to DCBx functions](https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=688848b1493a0a55059041dcc1ea332dabd1c75d)
+* 2014-06-19 [linux-kernel] &raquo;<br>[cxgb4 : Add DCBx support codebase and dcbnl_ops](https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=76bcb31efc0685574fb123f7aaa92f8a50c14fd9)
+* 2014-06-19 [linux-kernel] &raquo;<br>[cxgb4 : Update fw interface file for DCBx support. Adds all the required fields to fw interface to communicate DCBx info](https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=989594e2f28df8ec83a41cd08c5ce5dc1072e251)
+* 2014-06-16 [wireshark] &raquo;<br> [Check constraints for OSPFv2 LSAs](https://code.wireshark.org/review/gitweb?p=wireshark.git;a=commit;h=e02c66f157504fafed572840ad2024c7f6756ddc)
+* 2014-06-12 [wireshark] &raquo;<br> [Use the same offset += rtnValue logic for all TLV types, instead of a special case for chassis, port & ttl.](https://code.wireshark.org/review/gitweb?p=wireshark.git;a=commit;h=0b245a4cf8a46110ef0803e091e11fd894e017b2)
+* 2014-06-15 [wireshark] &raquo;<br> [Add support for WRITE_LONG16 & REPORT_REFERRALS to scsi dissector](https://code.wireshark.org/review/gitweb?p=wireshark.git;a=commit;h=5ca64ca97b101ff09b224a30447e9d39b622728c)
+* 2014-06-11 [wireshark] &raquo;<br> [Rename temp variables to a more human readable form](https://code.wireshark.org/review/gitweb?p=wireshark.git;a=commit;h=4a60a304627708d8af67f9ef5327b0f24410ef65)
+* 2014-06-11 [wireshark] &raquo;<br> [Use offset instead of tempOffset, return offset instead of calculating (len + n) where possible](https://code.wireshark.org/review/gitweb?p=wireshark.git;a=commit;h=508d16b037ef09c9bf700172c38c1d514d26f660)
+* 2014-06-10 [wireshark] &raquo;<br> [Use expert info for Invalid length/type where possible, other minor fixes](https://code.wireshark.org/review/gitweb?p=wireshark.git;a=commit;h=d8a21c8f8efcbbd917a3fe623cfb9721b27048da)
+* 2014-06-10 [wireshark] &raquo;<br> [Fix bug in dissect_lldp_port_id, support all port id subtypes](https://code.wireshark.org/review/gitweb?p=wireshark.git;a=commit;h=3fcd016029672b5683406ceeb75faa0533ce63c1)
+* 2014-06-09 [wireshark] &raquo;<br> [Current test for GIT_DIR introduced in changeset Ie1560c372e23e58fb0e310f681388b5e1a65ba5b doesn't seem to be working correctly on bash 4.3.18 : .git/hooks/pre-commit: line 11: .git: command not found](https://code.wireshark.org/review/gitweb?p=wireshark.git;a=commit;h=8878d7778e6fb10bf9e6ce20af16f4e247e51e04)
+* 2014-06-09 [wireshark] &raquo;<br> [Add modelines](https://code.wireshark.org/review/gitweb?p=wireshark.git;a=commit;h=9516675ca732a775f085fb53e1e9b95c2f2d1b09)
+* 2014-06-08 [wireshark] &raquo;<br> [remove all checks for if (tree)](https://code.wireshark.org/review/gitweb?p=wireshark.git;a=commit;h=f33ead547920609d732cd70415d65508ec377ba0)
+* 2014-06-06 [wireshark] &raquo;<br> [Updates as requested](https://code.wireshark.org/review/gitweb?p=wireshark.git;a=commit;h=a048dc1d0d33728022831a538d878e967da88901)
+* 2014-06-06 [wireshark] &raquo;<br> [Misc lldp cleanup](https://code.wireshark.org/review/gitweb?p=wireshark.git;a=commit;h=b69642db300a44c244ccbc641facc9cb0c86d072)
+* 2014-06-05 [wireshark] &raquo;<br> [LLDP-MED Cleanup](https://code.wireshark.org/review/gitweb?p=wireshark.git;a=commit;h=65abca673f16792ec1eb6f8173009db737e3a626)
+* 2014-06-01 [wireshark] &raquo;<br> [LLDP : Fix bug in mdi_power_source hf. While it compiles fine, hits an assert in add_string : failed assertion "hfinfo->type == FT_STRING || hfinfo->type == FT_STRINGZ || hfinfo->type == FT_STRINGZPAD"](https://code.wireshark.org/review/gitweb?p=wireshark.git;a=commit;h=de9efa1cb91afddb70d1b56a2574fb0def628bd3)
+* 2014-05-27 [wireshark] &raquo;<br> [LLDP Cleanup : 802.1 Qbg TLV](https://code.wireshark.org/review/gitweb?p=wireshark.git;a=commit;h=482e6a65102a0007ce7665501215e2851be413ed)
+* 2014-05-21 [wireshark] &raquo;<br> [LLDP Cleanup : 802.3 TLV](https://code.wireshark.org/review/gitweb?p=wireshark.git;a=commit;h=db4abb64eafcf1372585be025461e76d54f38ebb)
+* 2014-05-20 [wireshark] &raquo;<br> [Fix error in dcbx feature TLV dissection. Willing and Error bits were flipped](https://code.wireshark.org/review/gitweb?p=wireshark.git;a=commit;h=7e4b8a1497d9a412e9d3f1ea59f49dbad6ea8d9e)
+* 2014-05-12 [wireshark] &raquo;<br> [LLDP cleanup : Management Address TLV](https://code.wireshark.org/review/gitweb?p=wireshark.git;a=commit;h=fb1e25172373ded49891154946de6cae2d22ae83)
+* 2014-05-09 [open-lldp] &raquo;<br> [Interop issues with Juniper QFX3500 switch & firmware dcbx](http://open-lldp.org/git/?p=open-lldp.git;a=commitdiff;h=d3706f0eb89a59a1f6d89db0676774621f0212f6;hp=8f789079481996e39b4e9c533cd07eb458f6bd46)
+* 2014-05-05 [wireshark] &raquo;<br> [Small fix to how number of traffic classes is displayed for ETS. Used proto_tree_add_uint_format_valu instead of append_text](https://code.wireshark.org/review/gitweb?p=wireshark.git;a=commit;h=e46d1447be81100a858a192f9bdc5330d2700a15)
+* 2014-05-06 [wireshark] &raquo;<br> [Further LLDP dissection cleanup](https://code.wireshark.org/review/gitweb?p=wireshark.git;a=commit;h=9b7830114fdbb4949f2d73eac5478cab552aa7d9)
+* 2014-05-06 [wireshark] &raquo;<br> [Fix build failures caused by lldp cleanup](https://code.wireshark.org/review/gitweb?p=wireshark.git;a=commit;h=a915de5295d605f00bfc99d70d793b913b7b0efd)
+* 2014-05-05 [wireshark] &raquo;<br> [Cleanup LLDP dissection, convert add_text to tree items. Just started on this, more changes incoming](https://code.wireshark.org/review/gitweb?p=wireshark.git;a=commit;h=209f82a501e7117d9a97b1c8c665e24b8b461490)
+* 2014-04-30 [wireshark] &raquo;<br> [Add support for Logical Link Down TLV. TLV is 1 octet long, and only MSB holds info with 7 unused bits](https://code.wireshark.org/review/gitweb?p=wireshark.git;a=commit;h=b5120cd965b766e5f49febbb7c47340a79f4239b)
+* 2014-04-28 [wireshark] &raquo;<br> [Add support for Congestion Notification TLVs (802.1Qau)](https://code.wireshark.org/review/gitweb?p=wireshark.git;a=commit;h=8f2e234add60686a4a82d9fc3f1b7036b36d90f0)
+* 2014-04-28 [wireshark] &raquo;<br> [Fix checkAPIs warnings in packet-lldp.c. repoted_length() used instead of captured_length() as is seems more logical](https://code.wireshark.org/review/gitweb?p=wireshark.git;a=commit;h=ec205458b163be993f73801acf6323c4bec35391)
+* 2014-04-28 [wireshark] &raquo;<br> [This block of defines was always changed when I was retabbing my additions, this change fixes the tabs](https://code.wireshark.org/review/gitweb?p=wireshark.git;a=commit;h=eadaa0c50f0de42e329080366e4a27f4bd2af89a)
+* 2014-04-28 [wireshark] &raquo;<br> [With the use of tvb_reported_length_remaining(), there is no need to calculate consumedLen anymore](https://code.wireshark.org/review/gitweb?p=wireshark.git;a=commit;h=3765e99a07f65a34b06d9d5b3b48805750d7021f)
+* 2014-04-27 [wireshark] &raquo;<br> [Add Support for IEEE DCBx (8021az)](https://code.wireshark.org/review/gitweb?p=wireshark.git;a=commit;h=581cdcee1030e619e847304f08f35eb7a0436cb2)
+* 2014-04-24 [wireshark] &raquo;<br> [Add support for DCBX cee/cin protocol](https://code.wireshark.org/review/#/c/1330/)
+* 2013-09-23 [pipelight] &raquo;<br> [use qtchooser to call qdbus on Arch Linux](https://bitbucket.org/mmueller2012/pipelight/commits/c1885bf0e9068d4d26afafa0095d1b4cd9819805)
+* 2011-08-11 [wireshark] &raquo;<br> [Recognize iscsi traffic over a range of ports](https://code.wireshark.org/review/gitweb?p=wireshark.git;a=commit;h=f8034556e57b33df747a2bea4b24e011ac488700)
+* 2009-10-24 [wicd] &raquo;<br> [Handle essids that are made up of numbers](http://bazaar.launchpad.net/~wicd-devel/wicd/experimental/revision/462)
+
+<p class="message">
+  Built using <a href="http://jekyllrb.com">Jekyll</a> and <a href="https://pages.github.com">GitHub Pages</a>
+</p>
