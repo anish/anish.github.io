@@ -9,6 +9,7 @@ title: Devlog
 
 * 2014-10-08 [wireshark] &raquo;<br>[[ELMI] Add missing information elements, add support for sub-information elements. Bug 10532](https://code.wireshark.org/review/gitweb?p=wireshark.git;a=commit;h=f7588eaec2ccfca96de83d8f4f9d754d61e3fec3)
 * 2014-10-08 [wireshark] &raquo;<br>[[BACnet][trivial] change strings as per Bug 9640](https://code.wireshark.org/review/gitweb?p=wireshark.git;a=commit;h=1c510753760e94ee8df67733f5bd500921848764)
+* 2014-10-08 [buildbot] &raquo;<br>[Cleanup messageFormatter example to use logs from build steps instead of directly using build logs](https://github.com/buildbot/buildbot/commit/f43059f35f08ea98a439c1ed7b576b358826e798)
 * 2014-10-07 [wireshark] &raquo;<br>[elmi: Fix bug in message type coding](https://code.wireshark.org/review/gitweb?p=wireshark.git;a=commit;h=57a7aca8c36254d29b71f819054b7a671b931ede)
 * 2014-10-08 [wireshark] &raquo;<br>[[tools] Add missing GPL license to generate-bacnet-vendors.py](https://code.wireshark.org/review/gitweb?p=wireshark.git;a=commit;h=439c0b88a62fabcf49e28d7f806e6745a515c4ec)
 * 2014-10-07 [wireshark] &raquo;<br>[[bacnet] update vendors list, fix whitespace issues, all generated via script](https://code.wireshark.org/review/gitweb?p=wireshark.git;a=commit;h=f31836dbafe2b754b8ab62d2d20ee0342802df85)
