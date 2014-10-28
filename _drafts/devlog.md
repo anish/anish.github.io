@@ -3,19 +3,30 @@ layout: page
 title: Devlog
 ---
 
+<!---
+git log --author=Anish --format="* %ad [linux-kernel] &raquo;<br> [%s](https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=%H)"  --date=short
+git log --author=Anish --format="* %ad [wireshark] &raquo;<br> [%s](https://code.wireshark.org/review/gitweb?p=wireshark.git;a=commit;h=%H)"  --date=short
+--->
 <p class="message">
   This page lists some (but not all)of my contributions to open-source projects
 </p>
 
-* 2014-10-08 [wireshark] &raquo;<br>[[ELMI] Add missing information elements, add support for sub-information elements. Bug 10532](https://code.wireshark.org/review/gitweb?p=wireshark.git;a=commit;h=f7588eaec2ccfca96de83d8f4f9d754d61e3fec3)
-* 2014-10-08 [wireshark] &raquo;<br>[[BACnet][trivial] change strings as per Bug 9640](https://code.wireshark.org/review/gitweb?p=wireshark.git;a=commit;h=1c510753760e94ee8df67733f5bd500921848764)
-* 2014-10-08 [buildbot] &raquo;<br>[Cleanup messageFormatter example to use logs from build steps instead of directly using build logs](https://github.com/buildbot/buildbot/commit/f43059f35f08ea98a439c1ed7b576b358826e798)
-* 2014-10-07 [wireshark] &raquo;<br>[elmi: Fix bug in message type coding](https://code.wireshark.org/review/gitweb?p=wireshark.git;a=commit;h=57a7aca8c36254d29b71f819054b7a671b931ede)
-* 2014-10-08 [wireshark] &raquo;<br>[[tools] Add missing GPL license to generate-bacnet-vendors.py](https://code.wireshark.org/review/gitweb?p=wireshark.git;a=commit;h=439c0b88a62fabcf49e28d7f806e6745a515c4ec)
-* 2014-10-07 [wireshark] &raquo;<br>[[bacnet] update vendors list, fix whitespace issues, all generated via script](https://code.wireshark.org/review/gitweb?p=wireshark.git;a=commit;h=f31836dbafe2b754b8ab62d2d20ee0342802df85)
-* 2014-10-07 [wireshark] &raquo;<br>[[tools] add script to automatically generate bacnet vendors](https://code.wireshark.org/review/gitweb?p=wireshark.git;a=commit;h=515f09fef06e04c616f3d37df531e7d3cecb84c0)
-* 2014-10-06 [wireshark] &raquo;<br>[[iSCSI] Fix incorrect heuristic.](https://code.wireshark.org/review/gitweb?p=wireshark.git;a=commit;h=12800157d6b813768cd5adfef4ce3c5c2eec81c5)
-* 2014-10-06 [wireshark] &raquo;<br>[[bacnet] update vendor list](https://code.wireshark.org/review/gitweb?p=wireshark.git;a=commit;h=04bca658f9a85e908702fdb58e03c1a2fb4ee53f)
+* 2014-10-23 [linux-kernel] &raquo;<br> [cxgb4 : Handle dcb enable correctly](https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=fa5278b505053fd69dad520f54382e03ac38171c)
+* 2014-10-15 [linux-kernel] &raquo;<br> [cxgb4 : Improve handling of DCB negotiation or loss thereof](https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=dbde0d0c018d7980b7d6865c6332db75a6f71c87)
+* 2014-10-15 [linux-kernel] &raquo;<br> [cxgb4i : Fix -Wmaybe-uninitialized warning.](https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=001586a737ee8c11a1198c352c5635f19fd090ed)
+* 2014-10-14 [linux-kernel] &raquo;<br> [cxgb4i: Remove duplicate call to dst\_neigh\_lookup()](https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=c5bbcb5822b25c9f738db98e6d6ad2506cab8136)
+* 2014-10-14 [linux-kernel] &raquo;<br> [cxgb4i : Fix -Wunused-function warning](https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=f42bb57c61fd21fb7e30a2b99dbeb1671666bc47)
+* 2014-10-14 [linux-kernel] &raquo;<br> [cxgb4 : Fix build failure in cxgb4 when ipv6 is disabled/not in-built](https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=1bb60376cda108306818365b186450f154ede5f2)
+* 2014-10-14 [linux-kernel] &raquo;<br> [cxgb4i : Remove duplicated CLIP handling code](https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=587ddfe2d212019de7c921d9c010789828893f86)
+* 2014-10-08 [wireshark] &raquo;<br> [[ELMI] Add missing information elements, add support for sub-information elements. Bug 10532](https://code.wireshark.org/review/gitweb?p=wireshark.git;a=commit;h=f7588eaec2ccfca96de83d8f4f9d754d61e3fec3)
+* 2014-10-08 [wireshark] &raquo;<br> [[BACnet][trivial] change strings as per Bug 9640](https://code.wireshark.org/review/gitweb?p=wireshark.git;a=commit;h=1c510753760e94ee8df67733f5bd500921848764)
+* 2014-10-08 [wireshark] &raquo;<br> [[tools] Add missing GPL license to generate-bacnet-vendors.py](https://code.wireshark.org/review/gitweb?p=wireshark.git;a=commit;h=439c0b88a62fabcf49e28d7f806e6745a515c4ec)
+* 2014-10-07 [wireshark] &raquo;<br> [elmi: Fix bug in message type coding](https://code.wireshark.org/review/gitweb?p=wireshark.git;a=commit;h=57a7aca8c36254d29b71f819054b7a671b931ede)
+* 2014-10-07 [wireshark] &raquo;<br> [[bacnet] update vendors list, fix whitespace issues, all generated via script](https://code.wireshark.org/review/gitweb?p=wireshark.git;a=commit;h=f31836dbafe2b754b8ab62d2d20ee0342802df85)
+* 2014-10-07 [wireshark] &raquo;<br> [[tools] add script to automatically generate bacnet vendors](https://code.wireshark.org/review/gitweb?p=wireshark.git;a=commit;h=515f09fef06e04c616f3d37df531e7d3cecb84c0)
+* 2014-10-06 [wireshark] &raquo;<br> [[iSCSI] Fix incorrect heuristic.](https://code.wireshark.org/review/gitweb?p=wireshark.git;a=commit;h=12800157d6b813768cd5adfef4ce3c5c2eec81c5)
+* 2014-10-06 [wireshark] &raquo;<br> [[bacnet] update vendor list](https://code.wireshark.org/review/gitweb?p=wireshark.git;a=commit;h=04bca658f9a85e908702fdb58e03c1a2fb4ee53f)
+* 2014-10-05 [buildbot] &raquo;<br> [[buildbot] Cleanup messageFormatter example to use logs from build steps instead of directly using build logs](https://github.com/buildbot/buildbot/commit/70ede960656c42e7116376c1c12986ac30b65149)
 * 2014-09-15 [linux-kernel] &raquo;<br>[bnx2i/bnx2fc : fix randconfig error in next-20140909](https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=23a3c99201954d8ffe92e599e3c3039985280f1b)
 * 2014-09-15 [linux-kernel] &raquo;<br>[scsi\_netlink : Make SCSI_NETLINK dependent on NET instead of selecting NET](https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=5d6be6a5d4864712832822efeb9c2d54e4063949)
 * 2014-09-15 [linux-kernel] &raquo;<br>[cxgb4i: avoid holding mutex in interrupt context](http://git.infradead.org/users/hch/scsi-queue.git/commit/576b586303f76be9e5e2f5266ccbeba1b46bbd06)
