@@ -11,6 +11,11 @@ git log --author=Anish --format="* %ad [wireshark] &raquo;<br> [%s](https://code
   This page lists some (but not all)of my contributions to open-source projects
 </p>
 
+* 2015-01-14 [linux-kernel] &raquo;<br> [cxgb4i : Call into recently added cxgb4 ipv6 api](https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=211a84e3c188c67bfa22f1e7e1cd228709f6299b)
+* 2015-01-14 [linux-kernel] &raquo;<br> [cxgb4 : Update ipv6 address handling api](https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=b5a02f503caa0837b64907468359b075990afcce)
+* 2015-01-05 [wireshark] &raquo;<br> [[PROFINET] v2: Fix swapped MaintenanceRequired & MaintenanceDemanded bits](https://code.wireshark.org/review/gitweb?p=wireshark.git;a=commit;h=124272ec097852c0c0efa587cb1cb1bf8047ff73)
+* 2015-01-05 [wireshark] &raquo;<br> [Revert "[PROFINET] Fix swapped MaintenanceRequired & MaintenanceDemanded bits"](https://code.wireshark.org/review/gitweb?p=wireshark.git;a=commit;h=eb98b04ac12efe01d1abddf866b18f31101533ee)
+* 2015-01-02 [wireshark] &raquo;<br> [[PROFINET] Fix swapped MaintenanceRequired & MaintenanceDemanded bits](https://code.wireshark.org/review/gitweb?p=wireshark.git;a=commit;h=0452f763fb0dd2cf7e38f0a127c306199a814c3e)
 * 2014-11-20 [linux-kernel] &raquo;<br> [cxgb4 : Fix DCB priority groups being returned in wrong order](https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=17544e2ad78fa0bbff6fcdbf09426d04ce95ed1e)
 * 2014-11-18 [linux-kernel] &raquo;<br> [cxgb4i : Don't block unload/cxgb4 unload when remote closes TCP connection](https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=ee7255ada313a6db99be47ce174b0bfb8295a041)
 * 2014-11-14 [linux-kernel] &raquo;<br> [dcbnl : Disable software interrupts before taking dcb\_lock](https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=52cff74eef5dd7bdab759300e7d1ca36eba18254)
