@@ -4,13 +4,18 @@ title: Devlog
 ---
 
 <!---
-git log --author=Anish --format="* %ad [linux-kernel] &raquo;<br> [%s](https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=%H)"  --date=short
-git log --author=Anish --format="* %ad [wireshark] &raquo;<br> [%s](https://code.wireshark.org/review/gitweb?p=wireshark.git;a=commit;h=%H)"  --date=short
+git log --author=Anish --format="* %cd [linux-kernel] &raquo;<br> [%s](https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=%H)"  --date=short
+git log --author=Anish --format="* %cd [wireshark] &raquo;<br> [%s](https://code.wireshark.org/review/gitweb?p=wireshark.git;a=commit;h=%H)"  --date=short
 --->
 <p class="message">
   This page lists some (but not all)of my contributions to open-source projects
 </p>
 
+* 2015-02-06 [wireshark] &raquo;<br> [[IS-IS LSP] Add support for Adj-SID & LAN-Adj-SID subTLV](https://code.wireshark.org/review/gitweb?p=wireshark.git;a=commit;h=5b2a05ce5c526f67035a01dfb415c4cc7598ec70)
+* 2015-02-04 [openstack-cinder] &raquo;<br> [Change oslo.* to oslo_*](https://github.com/openstack/cinder/commit/cbcda7c7e80e19fd7239f9a835636773a17fbe48)
+* 2015-02-02 [openstack-nova] &raquo;<br> [libvirt : Add support for --interface option in iscsiadm.](https://github.com/openstack/nova/commit/554647a4deee6ece221eb79fc93551de72b17ae3)
+* 2015-01-30 [linux-kernel] &raquo;<br> [cxgb4 : Improve IEEE DCBx support, other minor open-lldp fixes](https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=ba0c39cb98a1eec3635ae5f959fef963738d12a5)
+* 2015-01-18 [nova-specs] &raquo;<br> [Fix a minor typo in bp url for an approved spec](https://github.com/openstack/nova-specs/commit/46ff34bfb885b4e78e00a319a930f75bfb78e017)
 * 2015-01-14 [linux-kernel] &raquo;<br> [cxgb4i : Call into recently added cxgb4 ipv6 api](https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=211a84e3c188c67bfa22f1e7e1cd228709f6299b)
 * 2015-01-14 [linux-kernel] &raquo;<br> [cxgb4 : Update ipv6 address handling api](https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=b5a02f503caa0837b64907468359b075990afcce)
 * 2015-01-05 [wireshark] &raquo;<br> [[PROFINET] v2: Fix swapped MaintenanceRequired & MaintenanceDemanded bits](https://code.wireshark.org/review/gitweb?p=wireshark.git;a=commit;h=124272ec097852c0c0efa587cb1cb1bf8047ff73)
@@ -18,7 +23,9 @@ git log --author=Anish --format="* %ad [wireshark] &raquo;<br> [%s](https://code
 * 2015-01-02 [wireshark] &raquo;<br> [[PROFINET] Fix swapped MaintenanceRequired & MaintenanceDemanded bits](https://code.wireshark.org/review/gitweb?p=wireshark.git;a=commit;h=0452f763fb0dd2cf7e38f0a127c306199a814c3e)
 * 2014-11-20 [linux-kernel] &raquo;<br> [cxgb4 : Fix DCB priority groups being returned in wrong order](https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=17544e2ad78fa0bbff6fcdbf09426d04ce95ed1e)
 * 2014-11-18 [linux-kernel] &raquo;<br> [cxgb4i : Don't block unload/cxgb4 unload when remote closes TCP connection](https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=ee7255ada313a6db99be47ce174b0bfb8295a041)
+* 2014-11-18 [nova-specs] &raquo;<br> [Add suport for other iscsi transports beside tcp](https://github.com/openstack/nova-specs/commit/67759017ebe5177d1aa8fc6034342fb8722bdfda)
 * 2014-11-14 [linux-kernel] &raquo;<br> [dcbnl : Disable software interrupts before taking dcb\_lock](https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=52cff74eef5dd7bdab759300e7d1ca36eba18254)
+* 2014-11-14 [cinder-specs] &raquo;<br> [Add support for chiscsi iscsi helper](https://github.com/openstack/cinder-specs/commit/b5a07a63138fc1b4c77d323d750d565a34b2b021)
 * 2014-11-11 [linux-kernel] &raquo;<br> [cxgb4 : dcb open-lldp interop fixes](https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=ee7bc3cdc2702ba36930d477b76dacd5b18e8956)
 * 2014-11-07 [linux-kernel] &raquo;<br> [cxgb4 : Fix bug in DCB app deletion](https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=a815286b94875c0428444e036df7e4e1a070bec0)
 * 2014-11-06 [linux-kernel] &raquo;<br> [cxgb4i: send abort\_rpl correctly](https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=7b07bf244ae33e4ce8d51c23f1359121942a6f3e)
