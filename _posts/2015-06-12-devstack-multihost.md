@@ -80,10 +80,11 @@ DATABASE_TYPE=mysql
 
 ENABLED_SERVICES=c-sch,c-vol
 
+CINDER_ENABLED_BACKENDS=lvm:lvmdriver-1
+
 [[post-config|$CINDER_CONF]]
 [DEFAULT]
 my_ip=$HOST_IP
-CINDER_ENABLED_BACKENDS=lvm:lvmdriver-1
 
 [lvmdriver-1]
 VOLUME_GROUP="stack-volumes"
