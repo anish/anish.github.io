@@ -37,6 +37,10 @@ We disable <code>c-vol</code>, <code>n-cpu</code> & <code>n-net</code> because w
 Once devstack has been launched, remember to allow inbound amqp & mysql connections via the following iptables rules :
 
 ````bash
+
+# keystone
+$ sudo iptables -I INPUT 1 -p tcp --dport 5000 -j ACCEPT
+
 # amqp
 $ sudo iptables -I INPUT 1 -p tcp --dport 5672 -j ACCEPT
 $ sudo iptables -I INPUT 1 -p tcp --dport 5673 -j ACCEPT
@@ -44,6 +48,9 @@ $ sudo iptables -I INPUT 1 -p tcp --dport 15672 -j ACCEPT
 
 # mysql
 $ sudo iptables -I INPUT 1 -p tcp --dport 3306 -j ACCEPT
+
+# glance
+$ sudo iptables -I INPUT 1 -p tcp --dport 9292 -j ACCEPT
 
 # cinder api
 $ sudo iptables -I INPUT 1 -p tcp --dport 8776 -j ACCEPT
