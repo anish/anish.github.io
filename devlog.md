@@ -11,6 +11,8 @@ git log --author=Anish --format="* %cd [wireshark] &raquo;<br> [%s](https://code
   This page lists some (but not all)of my contributions to open-source projects
 </p>
 
+* 2015-06-23 [linux-kernel] &raquo;<br> [dcb : Fix incorrect documentation for struct dcb\_app](https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=42bcce87d763b4d22dc6d3a0c0b60c6b49820de8)
+* 2015-06-22 [linux-kernel] &raquo;<br> [kbuild : Fix documentation of INSTALL\_HDR\_PATH](https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=ed45d403696150864ee3090e69e0564d4397eebc)
 * 2015-05-29 [wireshark] &raquo;<br> [Update scsi lun id dissector, add support to handle all 4 addressing methods](https://code.wireshark.org/review/gitweb?
 p=wireshark.git;a=commit;h=b610db61da2253d16f37c9265254a7b19b8d259d)
 * 2015-05-26 [wireshark] &raquo;<br> [Replace deprecated tvb\_length* apis](https://code.wireshark.org/review/gitweb?p=wireshark.git;a=commit;h=751989629ab82c
