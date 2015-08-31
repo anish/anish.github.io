@@ -16,6 +16,7 @@ git log --author=Anish --format="* %cd [wireshark] &raquo;<br> [%s](https://code
 * 2015-07-21 [linux-kernel] &raquo;<br> [cxgb4 : Allow firmware DCB info to be queried in host state](https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=a85c2eb3113299b8d55936a49e70c5b63c72617f)
 * 2015-07-21 [linux-kernel] &raquo;<br> [cxgb4 : Only pass app selector of 0 or 3 to firmware](https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=a44e7b73118b21176bdf6376c620d778a0ff0ee2)
 --->
+* 2015-08-31 [piaware] &raquo;<br> [-show option is missing from usage print.](https://github.com/flightaware/piaware/commit/2fc394f3fc1bfdea0a9637a1136262560fad4167)
 * 2015-07-15 [openstack-nova] &raquo;<br> [libvirt : remove broken olso\_config choices option](https://github.com/openstack/nova/commit/66b9c2ceaea3decc117cfe7d326a92bf2bdd169b)
 * 2015-06-23 [linux-kernel] &raquo;<br> [dcb : Fix incorrect documentation for struct dcb\_app](https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=42bcce87d763b4d22dc6d3a0c0b60c6b49820de8)
 * 2015-06-22 [linux-kernel] &raquo;<br> [kbuild : Fix documentation of INSTALL\_HDR\_PATH](https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=ed45d403696150864ee3090e69e0564d4397eebc)
