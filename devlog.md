@@ -10,6 +10,8 @@ git log --author=Anish --format="* %cd [wireshark] &raquo;<br> [%s](https://code
 <p class="message">
   This page lists some (but not all)of my contributions to open-source projects
 </p>
+* 2015-09-30 [openstack-cinder] &raquo;<br> [Obtain target authentication from database same as LIO target](https://github.com/openstack/cinder/commit/f51f4d385296231052a54a8e0eecbe836f983dfb)
+* 2015-09-09 [ix-client] &raquo;<br> [Update ix help text ](https://github.com/PedroSFreitas/ix-client/commit/22cb22c2dd81a67facc2007e43517ba82910a11a)
 * 2015-09-01 [openstack-os-brick] &raquo;<br> [Add support for --interface option in iscsiadm](https://github.com/openstack/os-brick/commit/15a55bd5d1e3ad274afafb43b96b8b88bb7d6ff8)
 * 2015-08-31 [piaware] &raquo;<br> [-show option is missing from usage print.](https://github.com/flightaware/piaware/commit/2fc394f3fc1bfdea0a9637a1136262560fad4167)
 * 2015-07-21 [linux-kernel] &raquo;<br> [cxgb4 : Fill DCB priority in vlan control headers](https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=397665dab58415d648f03e2893627f4f7abf0fba)
