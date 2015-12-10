@@ -10,6 +10,8 @@ git log --author=Anish --format="* %cd [wireshark] &raquo;<br> [%s](https://code
 <p class="message">
   This page lists some (but not all)of my contributions to open-source projects
 </p>
+* 2015-12-09 [kubernetes] &raquo;<br> [Add support for open-iscsi transports.](https://github.com/kubernetes/kubernetes/commit/5f7019ab9d28db1ad2322fa75222861a266c7497)
+* 2015-11-24 [kubernetes] &raquo;<br> [Support iqn as well as eui format for iSCSI entity names.](https://github.com/kubernetes/kubernetes/commit/18c82f743cd10785b19f1a6bb58c7374caea2aa8)
 * 2015-10-24 [linux-kernel] &raquo;<br> [rtl8188eu : BIT() macro cleanup](https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=9c68ed09fe11cdd45cd84f8dcf634c2ca4075a52)
 * 2015-10-13 [linux-kernel] &raquo;<br> [rtl8192u: BIT() macro cleanup](https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=56b3152e5e8b0501ff9ef100b772df8ecb3efd82)
 * 2015-10-13 [kubernetes] &raquo;<br> [Fix extraneous entries in iscsi path format](https://github.com/kubernetes/kubernetes/commit/6d9e9561e8d758c6520893a97cf6ce42404bb243)
