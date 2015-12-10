@@ -40,10 +40,8 @@ git log --author=Anish --format="* %cd [wireshark] &raquo;<br> [%s](https://code
 * 2015-07-15 [openstack-nova] &raquo;<br> [libvirt : remove broken olso\_config choices option](https://github.com/openstack/nova/commit/66b9c2ceaea3decc117cfe7d326a92bf2bdd169b)
 * 2015-06-23 [linux-kernel] &raquo;<br> [dcb : Fix incorrect documentation for struct dcb\_app](https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=42bcce87d763b4d22dc6d3a0c0b60c6b49820de8)
 * 2015-06-22 [linux-kernel] &raquo;<br> [kbuild : Fix documentation of INSTALL\_HDR\_PATH](https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=ed45d403696150864ee3090e69e0564d4397eebc)
-* 2015-05-29 [wireshark] &raquo;<br> [Update scsi lun id dissector, add support to handle all 4 addressing methods](https://code.wireshark.org/review/gitweb?
-p=wireshark.git;a=commit;h=b610db61da2253d16f37c9265254a7b19b8d259d)
-* 2015-05-26 [wireshark] &raquo;<br> [Replace deprecated tvb\_length* apis](https://code.wireshark.org/review/gitweb?p=wireshark.git;a=commit;h=751989629ab82c
-c73c5dfd0e2bde173c0b72dc6f)
+* 2015-05-29 [wireshark] &raquo;<br> [Update scsi lun id dissector, add support to handle all 4 addressing methods](https://code.wireshark.org/review/gitweb?p=wireshark.git;a=commit;h=b610db61da2253d16f37c9265254a7b19b8d259d)
+* 2015-05-26 [wireshark] &raquo;<br> [Replace deprecated tvb\_length* apis](https://code.wireshark.org/review/gitweb?p=wireshark.git;a=commit;h=751989629ab82cc73c5dfd0e2bde173c0b72dc6f)
 * 2015-04-24 [piaware] &raquo;<br> [Add fix for adept error from mutability/piaware](https://github.com/flightaware/piaware/commit/baae92ae9c8abd546835a17a226aefe6effdc46d)
 * 2015-04-23 [piaware] &raquo;<br> [Add ability to specify custom install prefix, for packaging purposes](https://github.com/flightaware/piaware/commit/9e854fb3c346d8e4afc63c30fdc277b8c7ddbeb4)
 * 2015-04-02 [openstack-manuals] &raquo;<br> [Add documentation for iscsi iface support](https://github.com/openstack/openstack-manuals/commit/10548fb6d7bc9823aa1e0273fb3a8cd30f55ee13)
