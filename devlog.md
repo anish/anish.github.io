@@ -10,6 +10,9 @@ git log --author=Anish --format="* %cd [wireshark] &raquo;<br> [%s](https://code
 <p class="message">
   This page lists some (but not all)of my contributions to open-source projects
 </p>
+* 2016-07-30 [buildbot] &raquo;<br> [Make Github documentation less confusing](https://github.com/buildbot/buildbot/commit/c3b5c83a332de1ba30557d9c7cb0743cee2483e4)
+* 2016-07-25 [kubernetes] &raquo;<br> [Check iscsi iface file for transport name](https://github.com/kubernetes/kubernetes/commit/531a961a96efef2be1640f240d6039ff6e7908b1)
+* 2016-07-11 [buildbot] &raquo;<br> [Make rpm dist renderable](https://github.com/buildbot/buildbot/commit/eaa3d38aeb2862635efc3a2d55dfcd23bcee5952)
 * 2016-04-03 [buildbot] &raquo;<br> [Make docker volumes a renderable property](https://github.com/buildbot/buildbot/commit/d8b2d11d670564f0af544f1637a7fc39e01a5d09)
 * 2016-03-25 [buildbot] &raquo;<br> [Fix unit tests breaking as a result of #2071](https://github.com/buildbot/buildbot/commit/bec055ae47e614486d39ec459462b2fba2196b93)
 * 2016-03-23 [buildbot] &raquo;<br> [Fix crash caused by incorrectly appended volume strings](https://github.com/buildbot/buildbot/commit/369da646cf91d7c029e7abc7524489e25f1f343e)
