@@ -10,7 +10,21 @@ git log --author=Anish --format="* %cd [wireshark] &raquo;<br> [%s](https://code
 <p class="message">
   This page lists some (but not all)of my contributions to open-source projects
 </p>
+* 2017-07-06 [python-dracclient]  &raquo;<br> [Fetch system attributes](https://github.com/openstack/python-dracclient/commit/c9e33ccd4cc01be32ca835bc8763584898acb087)
+* 2017-06-07 [packer]  &raquo;<br> [Make null builder actually have the ability to do nothing](https://github.com/hashicorp/packer/commit/ff3982773334241e4beff7633b248ce185b0d796)
+* 2017-03-27 [buildbot]  &raquo;<br> [Make tests happy](https://github.com/buildbot/buildbot/commit/8efde5ce6760c4d52e6f85fb01d195f079f58b11)
+* 2017-03-26 [buildbot]  &raquo;<br> [Support docker-py > 1.10.6](https://github.com/buildbot/buildbot/commit/b08a30021441af0a302090f94d4d46af5c64f717)
+* 2017-02-14 [python-dracclient]  &raquo;<br> [Fix typo in BIOS code](https://github.com/openstack/python-dracclient/commit/19fc4c56e62e2fd0b7c59772f2687473a972df13)
+* 2017-02-14 [python-dracclient]  &raquo;<br> [Add support for idrac_card and lifecycle_controller attributes](https://github.com/openstack/python-dracclient/commit/15b1c2a32f224f64fd6b6b794bb1a4713845ea84)
+* 2017-02-09 [buildbot]  &raquo;<br> [Add github reporter that can comment on Pull Requests](https://github.com/buildbot/buildbot/commit/d7e047a1b264b391f397ef2bb8e1dd59e9974cfb)
+* 2017-02-05 [buildbot]  &raquo;<br> [Previous fix for github issues was incomplete](https://github.com/buildbot/buildbot/commit/f4727fbc53b1709bba52963b940bb9a1f80ba3a6)
+* 2017-02-03 [buildbot]  &raquo;<br> [Fix bug in github comment code](https://github.com/buildbot/buildbot/commit/3fe474d51cb5ae80327cc97c2e25cb2af3d0a675)
+* 2016-11-17 [python-dracclient]  &raquo;<br> [Add missing RAID Status](https://github.com/openstack/python-dracclient/commit/e6310a69d3826f995f667756ae1674acf2be07b1)
+* 2016-10-27 [python-dracclient]  &raquo;<br> [Use InstanceId as unique attribute identifier rather than name](https://github.com/openstack/python-dracclient/commit/5e6b55dac35146ffd19564652595820bb25fa1c7)
 * 2016-10-26 [wireshark] &raquo;<br> [Add support to dissect iperf2 packets](https://code.wireshark.org/review/gitweb?p=wireshark.git;a=commit;h=d0bb041e5624c4a2369ebb60188aa26f08a0cf5f)
+* 2016-10-23 [python-dracclient]  &raquo;<br> [Fetch primary\_status from raid controller](https://github.com/openstack/python-dracclient/commit/b6009a0da7d7367d3bb37bb69c1a7875fc015a01)
+* 2016-10-20 [python-dracclient]  &raquo;<br> [Raid controller and Physical Drive attributes need to be nullable](https://github.com/openstack/python-dracclient/commit/5804c28b5f13fc7637a2b0216c05a8ed6476929c)
+* 2016-10-20 [python-dracclient]  &raquo;<br> [Don't assume FQDD naming](https://github.com/openstack/python-dracclient/commit/af0894134fb210090120b3c62cbdde4a8d080939)
 * 2016-07-30 [buildbot] &raquo;<br> [Make Github documentation less confusing](https://github.com/buildbot/buildbot/commit/c3b5c83a332de1ba30557d9c7cb0743cee2483e4)
 * 2016-07-25 [kubernetes] &raquo;<br> [Check iscsi iface file for transport name](https://github.com/kubernetes/kubernetes/commit/531a961a96efef2be1640f240d6039ff6e7908b1)
 * 2016-07-11 [buildbot] &raquo;<br> [Make rpm dist renderable](https://github.com/buildbot/buildbot/commit/eaa3d38aeb2862635efc3a2d55dfcd23bcee5952)
