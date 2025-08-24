@@ -211,7 +211,7 @@ git log --author=Anish --format="* %cd [wireshark] &raquo;<br> [%s](https://gitl
 * 2014-05-21 [wireshark] &raquo;<br> [LLDP Cleanup : 802.3 TLV](https://gitlab.com/wireshark/wireshark/-/commit/db4abb64eafcf1372585be025461e76d54f38ebb)
 * 2014-05-20 [wireshark] &raquo;<br> [Fix error in dcbx feature TLV dissection. Willing and Error bits were flipped](https://gitlab.com/wireshark/wireshark/-/commit/7e4b8a1497d9a412e9d3f1ea59f49dbad6ea8d9e)
 * 2014-05-12 [wireshark] &raquo;<br> [LLDP cleanup : Management Address TLV](https://gitlab.com/wireshark/wireshark/-/commit/fb1e25172373ded49891154946de6cae2d22ae83)
-* 2014-05-09 [open-lldp] &raquo;<br> [Interop issues with Juniper QFX3500 switch & firmware dcbx](http://open-lldp.org/git/?p=open-lldp.git;a=commitdiff;h=d3706f0eb89a59a1f6d89db0676774621f0212f6;hp=8f789079481996e39b4e9c533cd07eb458f6bd46)
+* 2014-05-09 [open-lldp] &raquo;<br> [Interop issues with Juniper QFX3500 switch & firmware dcbx](https://github.com/intel/openlldp/commit/d3706f0eb89a59a1f6d89db0676774621f0212f6)
 * 2014-05-05 [wireshark] &raquo;<br> [Small fix to how number of traffic classes is displayed for ETS. Used proto\_tree\_add\_uint\_format\_value instead of append\_text](https://gitlab.com/wireshark/wireshark/-/commit/e46d1447be81100a858a192f9bdc5330d2700a15)
 * 2014-05-06 [wireshark] &raquo;<br> [Further LLDP dissection cleanup](https://gitlab.com/wireshark/wireshark/-/commit/9b7830114fdbb4949f2d73eac5478cab552aa7d9)
 * 2014-05-06 [wireshark] &raquo;<br> [Fix build failures caused by lldp cleanup](https://gitlab.com/wireshark/wireshark/-/commit/a915de5295d605f00bfc99d70d793b913b7b0efd)
@@ -225,7 +225,7 @@ git log --author=Anish --format="* %cd [wireshark] &raquo;<br> [%s](https://gitl
 * 2014-04-24 [wireshark] &raquo;<br> [Add support for DCBX cee/cin protocol](https://gitlab.com/wireshark/wireshark/-/commit/0cfd4eb4a1c4fef98a59d33396348ae9d567f890)
 * 2013-09-23 [pipelight] &raquo;<br> [use qtchooser to call qdbus on Arch Linux](https://bitbucket.org/mmueller2012/pipelight/commits/c1885bf0e9068d4d26afafa0095d1b4cd9819805)
 * 2011-08-11 [wireshark] &raquo;<br> [Recognize iscsi traffic over a range of ports](https://gitlab.com/wireshark/wireshark/-/commit/f8034556e57b33df747a2bea4b24e011ac488700)
-* 2009-10-24 [wicd] &raquo;<br> [Handle essids that are made up of numbers](http://bazaar.launchpad.net/~wicd-devel/wicd/experimental/revision/462)
+* 2009-10-24 [wicd] &raquo;<br> [Handle essids that are made up of numbers](https://git.launchpad.net/wicd/commit/?id=0872e1b329da6267814374ed8bfb72bfab374b24)
 
 <p class="message">
   Built using <a href="http://jekyllrb.com">Jekyll</a> and <a href="https://pages.github.com">GitHub Pages</a>
