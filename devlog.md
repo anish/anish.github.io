@@ -10,6 +10,8 @@ git log --author=Anish --format="* %cd [wireshark] &raquo;<br> [%s](https://code
 <p class="message">
   This page lists some (but not all)of my contributions to open-source projects
 </p>
+* 2025-08-21 [dnf] &raquo;<br> [Fix incorrect bootc documentation link](https://github.com/rpm-software-management/dnf/commit/5553ff7ea3223246adc49c385196b60e1ce73c3c)
+* 2025-08-03 [bootc-base-images] &raquo;<br> [Silence permissions warning on bootc-generic-growpart.service](https://gitlab.com/fedora/bootc/base-images/-/commit/c100cf0959bde783f2ab944a80c8ec75c98467ee)
 * 2025-05-26 [bootc-examples] &raquo;<br> [Resize correct root partition in image mode](https://gitlab.com/fedora/bootc/examples/commit/505fcc41bf80e471860fb5734d083d667a0a33b0)
 * 2025-02-25 [buildbot] &raquo;<br> [allow passing cert or cert tuple to httpclientservice to support mtls](https://github.com/buildbot/buildbot/commit/2aec761260e26257f72b220d0e4adafcd38dc226)
 * 2025-02-25 [buildbot] &raquo;<br> [Expose the skipEncoding param from httpclientservice to HTTPStatusPush](https://github.com/buildbot/buildbot/commit/891f07b615a9a5e2666658e7d5b31996493c2832)
